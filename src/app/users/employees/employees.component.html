@@ -1,0 +1,25 @@
+
+    <h2>Employees List</h2>
+    
+    
+        <table >
+          <tr>
+            <th>Name</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Address</th>
+          </tr>
+            <tbody *ngFor="let temp of usersList.Users, let i = index">
+        <tr *ngIf="temp.address !== null">
+        <td >{{temp.name}}</td>
+        <td>{{temp.username}}</td>
+        <td>{{temp.email}}</td>
+        <td>{{temp.address.suite}}</td>
+        </tr>
+            </tbody>
+        </table> 
+        
+    
+   
+    
+        

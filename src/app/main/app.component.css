@@ -1,0 +1,10 @@
+header
+{
+    height: 120px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    
+ 
+}

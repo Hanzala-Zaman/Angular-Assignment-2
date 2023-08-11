@@ -1,0 +1,19 @@
+.table, th, td
+{
+ border: 1px solid;
+ padding: 12px;
+ 
+}
+table
+{
+    margin-left: 30%;
+    margin-top: 100px;
+    border-collapse: collapse;
+   
+}
+h2
+{
+    position: absolute;
+    top: 130px;
+    margin-left: 570px;
+}
